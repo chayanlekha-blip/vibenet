@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION BAR ================= -->
+    <nav class="navbar">
+        <div class="left">
+            <div class="logo">SocialApp</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li><a href="servers.html">Servers</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <a href="login.html" class="btn login-btn">Login</a>
+            <a href="signup.html" class="btn signup-btn">Signup</a>
+        </div>
+    </nav>
+
+
+    <!-- ================= MAIN PAGE LAYOUT ================= -->
+
+    <!-- LEFT SIDEBAR (Servers) -->
+    <div class="server-bar">
+        <div class="server-logo">S</div>
+        <div class="server-icon">A</div>
+        <div class="server-icon">B</div>
+        <div class="server-icon">+</div>
+    </div>
+
+    <!-- CHANNEL SIDEBAR -->
+    <div class="channel-bar">
+        <h3>Home</h3>
+        <ul>
+            <li class="active">general</li>
+            <li>announcements</li>
+            <li>updates</li>
+            <li>chat</li>
+        </ul>
+    </div>
+
+    <!-- MAIN CHAT AREA -->
+    <div class="main-area">
+
+        <!-- Header -->
+        <header class="top-bar">
+            <h2>#general</h2>
+        </header>
+
+        <!-- Messages -->
+        <div class="chat-box">
+
+            <div class="message">
+                <div class="avatar">U</div>
+                <div class="content">
+                    <div class="name">User One</div>
+                    <div class="text">Hello! Welcome to the chat.</div>
+                </div>
+            </div>
+
+            <div class="message">
+                <div class="avatar">A</div>
+                <div class="content">
+                    <div class="name">Akshit</div>
+                    <div class="text">Thanks! This UI looks awesome.</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Message Input -->
+        <div class="chat-input">
+            <input type="text" placeholder="Message #general">
+            <button id="sendBtn">Send</button>
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
