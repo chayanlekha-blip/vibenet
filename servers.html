@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Servers | Social Media App</title>
+
+  <link rel="stylesheet" href="css/servers.css">
+</head>
+<body>
+
+      <nav class="navbar">
+        <div class="left">
+            <div class="logo">SocialApp</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li><a href="servers.html">Servers</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <a href="login.html" class="btn login-btn">Login</a>
+            <a href="signup.html" class="btn signup-btn">Signup</a>
+        </div>
+    </nav>
+
+  <!-- SERVER ICONS BAR (left-most) -->
+  <aside class="server-bar">
+    <div class="server-logo">S</div>
+    <div class="server-icon">G</div>
+    <div class="server-icon">L</div>
+    <div class="server-icon">+</div>
+  </aside>
+
+  <!-- SERVER SIDEBAR (channels & server header) -->
+  <aside class="server-sidebar">
+    <div class="server-header">
+      <div class="server-name">GameGuild</div>
+      <div class="server-meta">Guild • 128 members</div>
+    </div>
+
+    <div class="channel-section">
+      <div class="section-title">VOICE CHANNELS</div>
+      <ul class="channels">
+        <li class="channel">🎮 general-voice</li>
+        <li class="channel">🎤 raid-party</li>
+        <li class="channel">🔊 music</li>
+      </ul>
+    </div>
+
+    <div class="channel-section">
+      <div class="section-title">TEXT CHANNELS</div>
+      <ul class="channels">
+        <li class="channel active"># announcements</li>
+        <li class="channel"># general</li>
+        <li class="channel"># tactics</li>
+        <li class="channel"># memes</li>
+      </ul>
+    </div>
+
+    <div class="server-actions">
+      <button class="btn">Create Channel</button>
+      <button class="btn ghost">Invite People</button>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT (selected channel view) -->
+  <main class="server-main">
+    <header class="main-top">
+      <h2># announcements</h2>
+      <div class="top-actions">
+        <button class="icon-btn">⚙️</button>
+        <button class="icon-btn">⋯</button>
+      </div>
+    </header>
+
+    <section class="server-feed">
+      <article class="announcement">
+        <div class="meta">
+          <div class="avatar">A</div>
+          <div class="who">
+            <div class="name">Admin</div>
+            <div class="time">Nov 10, 2025</div>
+          </div>
+        </div>
+        <div class="announce-body">
+          <h3>Server Update</h3>
+          <p>Welcome to the new GameGuild server layout — check voice channels for tonight's raid time!</p>
+        </div>
+      </article>
+
+      <article class="announcement">
+        <div class="meta">
+          <div class="avatar">M</div>
+          <div class="who">
+            <div class="name">Moderator</div>
+            <div class="time">Nov 8, 2025</div>
+          </div>
+        </div>
+        <div class="announce-body">
+          <h3>Rules Reminder</h3>
+          <p>Be respectful, no harassment, and keep spoilers tagged in #tactics.</p>
+        </div>
+      </article>
+    </section>
+
+    <footer class="main-input">
+      <input type="text" placeholder="Message #announcements" />
+      <button class="send">Send</button>
+    </footer>
+  </main>
+
+  <!-- RIGHT PANEL (members) -->
+  <aside class="members-panel">
+    <div class="members-header">Online — 12</div>
+
+    <ul class="members-list">
+      <li class="member"><div class="m-avatar">A</div><div class="m-info"><strong>Akshit</strong><span>Admin</span></div></li>
+      <li class="member"><div class="m-avatar">M</div><div class="m-info"><strong>Maya</strong><span>Mod</span></div></li>
+      <li class="member"><div class="m-avatar">S</div><div class="m-info"><strong>Sarthak</strong><span>Gamer</span></div></li>
+      <li class="member"><div class="m-avatar">L</div><div class="m-info"><strong>Leah</strong><span>Streamer</span></div></li>
+      <li class="member"><div class="m-avatar">R</div><div class="m-info"><strong>Ravi</strong><span>Member</span></div></li>
+    </ul>
+
+    <div class="members-actions">
+      <button class="btn">View All</button>
+    </div>
+  </aside>
+
+</body>
+</html>
